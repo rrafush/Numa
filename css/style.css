@@ -1,0 +1,1688 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+/**
+ * Remove anchor tex-decoration
+ */
+
+a {
+  text-decoration: none;
+}
+
+/**
+ * Remove list-style
+ */
+
+ol,
+ul {
+  list-style: none;
+}
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+em,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+article,
+footer,
+header,
+nav,
+section,
+main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0px;
+  position: relative;
+}
+
+.container:after,
+.container:before {
+  content: " ";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9,
+.grid-10,
+.grid-11,
+.grid-12,
+.grid-13,
+.grid-14,
+.grid-15,
+.grid-16,
+.grid-1-3 {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.grid-1 {
+  width: 40px;
+}
+.grid-2 {
+  width: 100px;
+}
+.grid-3 {
+  width: 160px;
+}
+.grid-4 {
+  width: 220px;
+}
+.grid-5 {
+  width: 280px;
+}
+.grid-6 {
+  width: 340px;
+}
+.grid-7 {
+  width: 400px;
+}
+.grid-8 {
+  width: 460px;
+}
+.grid-9 {
+  width: 520px;
+}
+.grid-10 {
+  width: 580px;
+}
+.grid-11 {
+  width: 640px;
+}
+.grid-12 {
+  width: 700px;
+}
+.grid-13 {
+  width: 760px;
+}
+.grid-14 {
+  width: 820px;
+}
+.grid-15 {
+  width: 880px;
+}
+.grid-16 {
+  width: 940px;
+}
+.grid-1-3 {
+  width: 300px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .container {
+    width: 768px;
+  }
+
+  .grid-1 {
+    width: 28px;
+  }
+  .grid-2 {
+    width: 76px;
+  }
+  .grid-3 {
+    width: 124px;
+  }
+  .grid-4 {
+    width: 172px;
+  }
+  .grid-5 {
+    width: 220px;
+  }
+  .grid-6 {
+    width: 268px;
+  }
+  .grid-7 {
+    width: 316px;
+  }
+  .grid-8 {
+    width: 364px;
+  }
+  .grid-9 {
+    width: 412px;
+  }
+  .grid-10 {
+    width: 460px;
+  }
+  .grid-11 {
+    width: 508px;
+  }
+  .grid-12 {
+    width: 556px;
+  }
+  .grid-13 {
+    width: 604px;
+  }
+  .grid-14 {
+    width: 652px;
+  }
+  .grid-15 {
+    width: 700px;
+  }
+  .grid-16 {
+    width: 748px;
+  }
+  .grid-1-3 {
+    width: 236px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 300px;
+  }
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-5,
+  .grid-6,
+  .grid-7,
+  .grid-8,
+  .grid-9,
+  .grid-10,
+  .grid-11,
+  .grid-12,
+  .grid-13,
+  .grid-14,
+  .grid-15,
+  .grid-16,
+  .grid-1-3 {
+    width: 300px;
+    margin: 0 0 20px 0;
+  }
+}
+
+/* ESTILOS GERAIS */
+h1 {
+  color: #435845;
+  font-size: 35px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  color: #064b04;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  color: #064b04;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 36px;
+}
+
+h4 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #e5e2d8;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #435845;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.quote {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 5px;
+  color: #435845;
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.conteudo {
+  margin-top: 40px;
+}
+
+cite {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #435845;
+  font-size: 14px;
+  display: block;
+  padding: 10px;
+}
+
+.btn {
+  width: 140px;
+  height: 40px;
+  margin: 20px 0;
+  background-color: #e5e2d8;
+  border: none;
+  border-radius: 20px;
+  transition: 500ms;
+  font-family: "Lora", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #707070;
+  letter-spacing: 0.1em;
+  transition: 500ms;
+}
+
+.btn:hover {
+  background-color: #acacac;
+  color: #e5e2d8;
+  transition: 500ms;
+}
+
+.btn a {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #707070;
+  letter-spacing: 0.1em;
+  padding: 20px;
+  transition: 500ms;
+}
+
+.btn a:hover {
+  color: #e5e2d8;
+  transition: 500ms;
+}
+
+hr {
+  border-top: 2px solid #4e4e4e;
+  border-radius: 2px;
+  width: 60px;
+}
+
+/* HEADER */
+.header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background: rgba(229, 226, 216, 0.9);
+  padding: 17px 0;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 17px;
+}
+
+.header_menu ul li a {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #435845;
+  letter-spacing: 0.1em;
+  padding: 5px 0;
+  border-bottom: 2px transparent;
+}
+
+.header_menu ul li a:hover {
+  border-bottom: 2px solid #435845;
+}
+.imgtopIndex {
+  width: 100%;
+  top: 0;
+  background: url("../assets/img/bg-intro.png") no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+.topaction {
+  text-align: center;
+  padding: 150px;
+}
+
+.header_menu .menu_ativo {
+  font-weight: 700;
+}
+
+.container.topaction.rotinas{
+  background-color: white;
+  margin-top: 100px;
+  padding-bottom: 0;
+}
+
+/* FOOTER */
+
+footer p {
+  font-size: 12px;
+  color: #e5e2d8;
+}
+footer hr {
+  margin-left: 0;
+  border-top: 2px solid #e5e2d8;
+}
+
+.info {
+  background-color: #435845;
+  height: 250px;
+}
+
+footer article {
+  height: 175px;
+}
+
+.redes {
+  padding-right: 40px;
+  padding-top: 20px;
+  transition: 500ms;
+}
+
+.redes:hover {
+  opacity: 0.5;
+  transition: 500ms;
+}
+
+.copyright {
+  height: 60px;
+  background-color: #064b04;
+  padding: 17px;
+}
+
+.copyright p {
+  color: #e5e2d8;
+  margin-bottom: 0;
+}
+
+.portf p {
+  text-align: right;
+}
+
+/* PRODUTOS*/
+
+article {
+  display: block;
+  width: 452px;
+  height: 261px;
+  margin-bottom: 20px;
+  padding: 70px, 80px;
+  transition: 500ms ease;
+}
+article.link:hover {
+  opacity: 0.5;
+  transition: 500ms ease;
+}
+article.cabelos {
+  text-align: center;
+  padding: 85px;
+  background: url(../assets/img/bg-produto01.png);
+  background-size: cover;
+}
+article.corpo {
+  text-align: center;
+  padding: 85px;
+  background: url(../assets/img/bg-produto02.png);
+  background-size: cover;
+}
+article.oleos {
+  text-align: center;
+  padding: 85px;
+  background: url(../assets/img/bg-produto03.png);
+  background-size: cover;
+}
+article.maquiagem {
+  text-align: center;
+  padding: 85px;
+  background: url(../assets/img/bg-produto04.png);
+  background-size: cover;
+}
+
+/* ROTINAS */
+
+.rotinas {
+  background-color: #f8f7f5;
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+article.seca {
+  text-align: center;
+  padding: 85px;
+  background: url(../assets/img/Bg-rotina01.png);
+  background-size: cover;
+}
+
+article.oleosa {
+  text-align: center;
+  padding: 85px;
+  background: url(../assets/img/Bg-rotina02.png);
+  background-size: cover;
+}
+
+article.mista {
+  text-align: center;
+  padding: 85px;
+  background: url(../assets/img/Bg-rotina03.png);
+  background-size: cover;
+}
+
+/* SOBRE */
+.sobre {
+  text-align: center;
+}
+.icon {
+  width: 180px;
+  margin: 40px;
+}
+
+.mais {
+  padding-top: 200px;
+  padding-bottom: 150px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  h1 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+  .topaction {
+    padding: auto;
+  }
+  .redes {
+    width: 30%;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .header {
+    height: 130px;
+  }
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin-left: 30px;
+    margin-top: -15px;
+    line-height: 30px;
+  }
+
+  .header_menu ul li a {
+    font-size: 12px;
+  }
+
+  .topaction {
+    padding: 150px 0 0 0;
+  }
+
+  .logonumatopo {
+    width: 100px;
+    margin: 0 100px;
+  }
+
+  .link p {
+    display: none;
+  }
+
+  .link h3 {
+    padding-top: 25%;
+  }
+  .icon {
+    width: 100px;
+  }
+  .mais {
+    padding: 80px 0;
+  }
+
+  .info {
+    height: 580px;
+  }
+
+  .copyright {
+    height: 160px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .portf p {
+    text-align: center;
+  }
+}
+
+/* CABELOS */
+
+.imgtopCabelos {
+  width: 100%;
+  top: 0;
+  background: url("../assets/img/bgcabelo.png") no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+.imgtopCabelos blockquote p,
+.imgtopCabelos h1 {
+  color: #e5e2d8;
+}
+
+.topaction blockquote hr {
+  border-color: #e5e2d8;
+}
+
+.escrita h2,
+.escrita p {
+  text-align: left;
+}
+.escrita p {
+  text-align: justify;
+}
+
+.escrita hr {
+  margin-left: 0;
+}
+
+.page_produtos {
+  padding: 80px 0;
+}
+
+.peca {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #435845;
+  font-size: 14px;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+}
+
+.selos img {
+  display: inline-block;
+  width: 90px;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+
+.selos {
+  text-align: right;
+}
+
+.callto.grid-7 {
+  display: block;
+  margin-top: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .imgtopCabelos {
+    background-position: center;
+  }
+  .escrita.grid-8 {
+    padding: 0 0 0 30px;
+  }
+  .escrita h2 {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .imgtopCabelos {
+    background-position: center;
+    padding-top: 80px;
+  }
+
+  .page_produtos {
+    padding: 30px;
+    margin: 0 auto;
+  }
+
+  .page_produtos img {
+    width: 250px;
+  }
+
+  .selos img {
+    width: 50px;
+    padding-left: 0;
+    margin: 0 10px;
+  }
+
+  .selos {
+    text-align: center;
+  }
+}
+
+/* CONTATO */
+
+.info_contato {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+form label {
+  font-family: Lora, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color: #707070;
+  display: inline-block;
+  margin: 20px 0 10px 0;
+}
+
+form input,
+form textarea {
+  width: 400px;
+  padding-right: 40px;
+  border-color: #707070;
+  border-width: 1px;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  color: #707070;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  padding-left: 20px;
+}
+
+form textarea {
+  padding: 20px;
+  height: 200px;
+  resize: none;
+}
+
+form input:focus,
+form textarea:focus {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #0f910a;
+  outline: none;
+}
+
+form input {
+  height: 40px;
+}
+
+.btn.contato{
+  margin: 30px 0;
+}
+
+.center p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.logonuma {
+  display: block;
+  width: 400px;
+  margin: 0 auto 40px auto;
+  padding-top: 40px;
+}
+
+.caps {
+  text-transform: uppercase;
+  color: #4e4e4e;
+  margin-bottom: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  form input,
+  form textarea {
+    width: 300px;
+  }
+  .logonuma {
+    width: 200px;
+    padding-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  form input,
+  form textarea {
+    width: 300px;
+  }
+  .logonuma {
+    width: 250px;
+  }
+
+  .info_contato {
+    margin-top: 100px;
+  }
+}
+/* CORPO */
+
+.imgtopCorpo {
+  width: 100%;
+  top: 0;
+  background: url("../assets/img/bgpele.png") no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+.imgtopCorpo blockquote p,
+.imgtopCorpo h1 {
+  color: #e5e2d8;
+}
+
+.topaction blockquote hr {
+  border-color: #e5e2d8;
+}
+
+.escrita h2,
+.escrita p {
+  text-align: left;
+}
+.escrita p {
+  text-align: justify;
+}
+
+.escrita hr {
+  margin-left: 0;
+}
+
+.page_produtos {
+  padding: 80px 0;
+}
+
+.peca {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #435845;
+  font-size: 14px;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+}
+
+.selos img {
+  display: inline-block;
+  width: 90px;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+
+.selos {
+  text-align: right;
+}
+
+.callto.grid-7 {
+  display: block;
+  margin-top: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .imgtopCorpo {
+    background-position: center;
+  }
+  .escrita.grid-8 {
+    padding: 0 0 0 30px;
+  }
+  .escrita h2 {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .imgtopCorpo {
+    background-position: center;
+    padding-top: 80px;
+  }
+
+  .page_produtos {
+    padding: 30px;
+    margin: 0 auto;
+  }
+
+  .page_produtos img {
+    width: 250px;
+  }
+
+  .selos img {
+    width: 50px;
+    padding-left: 0;
+    margin: 0 10px;
+  }
+
+  .selos {
+    text-align: center;
+  }
+}
+
+/* MAQUIAGEM */
+
+.imgtopMaquiagem {
+  width: 100%;
+  top: 0;
+  background: url("../assets/img/bgmake.png") no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+.imgtopMaquiagem blockquote p,
+.imgtopMaquiagem h1 {
+  color: #e5e2d8;
+}
+
+.topaction blockquote hr {
+  border-color: #e5e2d8;
+}
+
+.escrita h2,
+.escrita p {
+  text-align: left;
+}
+.escrita p {
+  text-align: justify;
+}
+
+.escrita hr {
+  margin-left: 0;
+}
+
+.page_produtos {
+  padding: 80px 0;
+}
+
+.peca {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #435845;
+  font-size: 14px;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+}
+
+.selos img {
+  display: inline-block;
+  width: 90px;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+
+.selos {
+  text-align: right;
+}
+
+.callto.grid-7 {
+  display: block;
+  margin-top: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .imgtopMaquiagem {
+    background-position: center;
+  }
+  .escrita.grid-8 {
+    padding: 0 0 0 30px;
+  }
+  .escrita h2 {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .imgtopMaquiagem {
+    background-position: center;
+    padding-top: 80px;
+  }
+
+  .page_produtos {
+    padding: 30px;
+    margin: 0 auto;
+  }
+
+  .page_produtos img {
+    width: 250px;
+  }
+
+  .selos img {
+    width: 50px;
+    padding-left: 0;
+    margin: 0 10px;
+  }
+
+  .selos {
+    text-align: center;
+  }
+}
+/* OLEOS */
+
+.imgtopOleos {
+  width: 100%;
+  top: 0;
+  background: url("../assets/img/bgoleo.png") no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+.imgtopOleos blockquote p,
+.imgtopOleos h1 {
+  color: #e5e2d8;
+}
+
+.topaction blockquote hr {
+  border-color: #e5e2d8;
+}
+
+.escrita h2,
+.escrita p {
+  text-align: left;
+}
+.escrita p {
+  text-align: justify;
+}
+
+.escrita hr {
+  margin-left: 0;
+}
+
+.page_produtos {
+  padding: 80px 0;
+}
+
+.peca {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #435845;
+  font-size: 14px;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+}
+
+.selos img {
+  display: inline-block;
+  width: 90px;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+
+.selos {
+  text-align: right;
+}
+
+.callto.grid-7 {
+  display: block;
+  margin-top: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .imgtopOleos {
+    background-position: center;
+  }
+  .escrita.grid-8 {
+    padding: 0 0 0 30px;
+  }
+  .escrita h2 {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .imgtopOleos {
+    background-position: center;
+    padding-top: 80px;
+  }
+
+  .page_produtos {
+    padding: 30px;
+    margin: 0 auto;
+  }
+
+  .page_produtos img {
+    width: 250px;
+  }
+
+  .selos img {
+    width: 50px;
+    padding-left: 0;
+    margin: 0 10px;
+  }
+
+  .selos {
+    text-align: center;
+  }
+}
+
+/* PRODUTOS */
+
+#produtos {
+  margin-top: 100px;
+}
+
+/* ROTINA */
+
+.imgtop {
+  width: 100%;
+  top: 0;
+  background-image: none;
+  background-size: cover;
+  height: 250px;
+}
+
+.imgtop blockquote p {
+  max-width: 270px;
+}
+
+.escrita h2,
+.escrita p {
+  text-align: left;
+}
+.escrita p {
+  text-align: justify;
+}
+
+.escrita hr {
+  margin-left: 0;
+}
+
+.page_produtos {
+  padding: 80px 0;
+}
+
+.periodo {
+  background-color: #e5e2d8;
+  height: 365px;
+  margin-top: 40px;
+}
+
+.periodo img {
+  width: 275px;
+  margin: 45px 55px;
+  display: block;
+}
+article h2 {
+  text-align: left;
+}
+
+.periodo hr {
+  margin: 5px 0 10px 0;
+}
+
+.periodo article {
+  margin: 20px 55px 0 55px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .periodo img {
+    width: 250px;
+  }
+  .periodo article {
+    width: 350px;
+    margin: 0;
+  }
+  .periodo .segundo {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .periodo img {
+    width: 200px;
+    display: block;
+    margin: 40px 50px;
+    padding: auto;
+  }
+  .periodo article {
+    width: 250px;
+    margin: 0 20px;
+  }
+
+  .periodo {
+    height: 750px;
+  }
+
+  .segundo {
+    padding-top: 270px;
+  }
+
+  .periodo .segundo_img {
+    margin-top: -230px;
+  }
+}
+
+/* SOBRE */
+
+.conteudo._sobre {
+  margin-top: 100px;
+}
+
+.container._sobre {
+  margin-bottom: 200px;
+}
+
+.background {
+  background-color: #e5e2d8;
+  height: 1026px;
+  padding-top: 100px;
+}
+
+.background .container .svglogo {
+  width: 492px;
+  margin-left: 25%;
+  margin-bottom: 50px;
+}
+
+.h2align_left {
+  text-align: left;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .background .container .svglogo {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .background {
+    height: 1600px;
+  }
+  .container._sobre {
+    margin-bottom: 100px;
+  }
+}
